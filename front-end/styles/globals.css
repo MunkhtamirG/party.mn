@@ -10,3 +10,9 @@ html {
 a {
   text-decoration: none;
 }
+.main {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e) !important;
+}
+.footer {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e) !important;
+}

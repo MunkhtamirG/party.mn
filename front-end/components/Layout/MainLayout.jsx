@@ -16,11 +16,11 @@ const MainLayout = ({ children }) => {
       <Layout className="h-screen">
         <Sider />
         <Layout>
-          <Header>
+          <Header className="flex justify-center items-center">
             <Navbar />
           </Header>
           <Content>
-            <div>{children}</div>
+            <div className="h-[100%]">{children}</div>
           </Content>
           <Footer />
         </Layout>
