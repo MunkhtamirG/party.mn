@@ -2,13 +2,6 @@ import { Layout, Menu } from "antd";
 import React, { useState } from "react";
 import icon1 from "../../public/images/confetti.png";
 import Image from "next/image";
-import {
-  DesktopOutlined,
-  FileOutlined,
-  PieChartOutlined,
-  TeamOutlined,
-  UserOutlined,
-} from "@ant-design/icons";
 
 const { Sider } = Layout;
 
@@ -22,7 +15,11 @@ function getItem(label, key, icon, children) {
 }
 
 const items = [
-  getItem("Үдэшлэг төлөвлөх", "1", <Image src={icon1} width={24} />),
+  getItem(
+    "Үдэшлэг төлөвлөх",
+    "1",
+    <Image src={icon1} width={24} alt="party logo" />
+  ),
   // getItem("Option 2", "2", <DesktopOutlined />),
   // getItem("User", "sub1", <UserOutlined />, [
   //   getItem("Tom", "3"),
